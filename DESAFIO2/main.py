@@ -1,5 +1,5 @@
 from pagamento import *
-
+#salario
 def main():
     finalizar_compra(Boleto(), 5000)
 

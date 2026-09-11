@@ -1,4 +1,5 @@
 from simulador import *
+#ARQUIVOS
 
 def main():
     a1 = DOC("Prova", 250000)

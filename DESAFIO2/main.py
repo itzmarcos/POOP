@@ -1,5 +1,6 @@
 from pagamento import *
-#salario
+#SISTEMA DE PAGAMENTO
+
 def main():
     finalizar_compra(Boleto(), 5000)
 

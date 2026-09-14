@@ -3,7 +3,7 @@ normal = "\033[0m"
 yellow = "\033[43m"
 red =  "\033[41m"
 
-class Mensagem():
+class Mensagem:
     def __init__(self, mensagem):
         self.mensagem = mensagem
 

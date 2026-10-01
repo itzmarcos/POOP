@@ -9,12 +9,12 @@ class Pessoa:
 
 class Aluno(Pessoa):
     def funcao(self):
-        return f'{self.nome} tem {self.idade} e é aluno na Escola Sinha Saboia'
+        return f'{self.nome} tem {self.idade} anos e é aluno na Escola Sinha Saboia'
 
 class Professor(Pessoa):
     def funcao(self):
-        return f'{self.nome} tem {self.idade} e é professor na Escola Sinha Saboia'
+        return f'{self.nome} tem {self.idade} anos e é professor na Escola Sinha Saboia'
 
 class Diretor(Pessoa):
     def funcao(self):
-        return f'{self.nome} tem {self.idade} e é Diretor na Escola Sinha Saboia'
+        return f'{self.nome} tem {self.idade} anos e é Diretor na Escola Sinha Saboia'

@@ -1,8 +1,8 @@
 class Pessoa:
-    def __init__(self, nome, idade):
+    def __init__(self, nome, idade, cargo):
         self.nome = nome
         self.idade = idade
-
+        self.cargo = cargo
     def funcao(self):
         pass
 
@@ -13,8 +13,8 @@ class Aluno(Pessoa):
 
 class Professor(Pessoa):
     def funcao(self):
-        return f'{self.nome} tem {self.idade} anos e é professor na Escola Sinha Saboia'
+        return f'{self.nome} tem {self.idade} anos e é {self.cargo} na Escola Sinha Saboia'
 
 class Diretor(Pessoa):
     def funcao(self):
-        return f'{self.nome} tem {self.idade} anos e é Diretor na Escola Sinha Saboia'
+        return f'{self.nome} tem {self.idade} anos e é {self.cargo} na Escola Sinha Saboia'
